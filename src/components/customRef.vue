@@ -11,11 +11,10 @@
 <script>
 import { customRef } from "vue";
 export default {
-  name: "HelloWorld",
+  name: "customRef",
   setup() {
     const keyword = useDebouncedRef("", 500);
     console.log(keyword);
-
     return {
       keyword,
     };

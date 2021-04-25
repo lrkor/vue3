@@ -1,14 +1,17 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <customRef msg="Welcome to Your Vue.js App"/>
+  <readonly />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import customRef from './components/customRef.vue'
+import readonly from './components/readonly.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    customRef,
+    readonly
   }
 }
 </script>
